@@ -1,0 +1,15 @@
+{
+  "name": "angular-paymill",
+  "description": "angular paymill directives",
+  "author": "Christian Blaschke <mail@platdesign.de>",
+  "version": "0.0.0",
+  "dependencies": {},
+  "repository": "https://github.com/platdesign/angular-paymill.git",
+  "main": "./src/Paymill.js",
+  "devDependencies": {
+    "angular": "^1.4.6",
+    "gulp": "^3.9.0",
+    "jquery": "^2.1.4",
+    "pd-gulp-js": "^0.3.2"
+  }
+}

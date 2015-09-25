@@ -1,0 +1,15 @@
+form(ng-submit="submit($event)")
+	script(
+		src="https://button.paymill.com/v1/",
+		id="button",
+		data-label="{{ config.buttonLabel }}",
+		data-title="{{ config.modalTitle }}",
+		data-description="{{ config.product.description}}",
+		data-submit-button="{{ config.submitButtonLabel }}",
+		data-amount="{{ config.product.amount }}",
+		data-currency="{{ config.product.currency }}",
+		data-public-key="{{ paymill.publicKey }}",
+		data-elv="{{ config.elv || false }}",
+		data-lang="{{ config.lang }}",
+		data-logo="{{ config.signetUrl }}"
+		)

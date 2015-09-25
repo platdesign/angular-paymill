@@ -1,0 +1,8 @@
+/* angular-paymill
+ *
+ * @author	<%= pkg.author %>
+ * @version <%= pkg.version %>
+ * @date		<%= date %>
+ * @license MIT - http://opensource.org/licenses/mit-license.php
+ *
+ */
